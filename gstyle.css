@@ -1,0 +1,37 @@
+.lbox{
+    border: 1px solid black;
+    height: 200px;
+    width: 150px;
+    background-image: linear-gradient(cadetblue, pink);
+    background-image: linear-gradient(to right,cadetblue, pink);
+    background-image: linear-gradient(to left,cadetblue, pink);
+    background-image: linear-gradient(to bottom,cadetblue, pink);
+    background-image: linear-gradient(to top,cadetblue, pink);
+    background-image: linear-gradient(to bottom right,cadetblue, pink, lightgreen);
+    background-image: linear-gradient(45deg,cadetblue, pink, lightgreen);
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.317), rgba(0,0,250,1));
+    background-image: linear-gradient(orange,white,green);
+
+}
+.rbox{
+    border: 1px solid black;
+    margin: 10px;
+    height: 400px;
+    width: 200px;
+    background-image: radial-gradient(circle, crimson, blue, orange);
+    background-image: radial-gradient(yellow 5%, orange 10%, red 50%);
+}
+.cbox{  
+    border: 1px solid black;
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    /*Pie Charts */
+    background-image: conic-gradient(red, yellow, green, blue, black);
+    border-radius: 50%;
+    background-image: conic-gradient(red 0deg, red 90deg, yellow 90deg, yellow 180deg, green 180deg, green 270deg, blue 270deg);
+    /* With Specified From Angle */
+    background-image: conic-gradient(from 75deg, red, yellow, green);
+    /* With Specified Center Position */
+    background-image: conic-gradient(at 55%, red, yellow, green);
+}

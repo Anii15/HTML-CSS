@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+}
+.box{
+    width: 530px;
+    height: 290px;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 220px 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    border-radius: 25px;     
+}
+
+#b1{
+    background-image: url(mug.jpg) ; 
+    background-size: cover;
+    background-position: center;
+    grid-row: 1/span 5; 
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+}
+#b2{
+    margin: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgba(75, 13, 13, 0.546);
+    font-family: "Fraunces", serif;
+}
+h1{
+    margin-bottom: 5px;
+}
+
+#b3{
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-family: "Montserrat", sans-serif;
+}
+
+#green{
+    color: rgba(6, 146, 6, 0.71);
+    font-family: serif;
+    font-size: 23px;
+    font-weight: bold;
+    margin: 20px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 2rem;
+    margin: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(6, 146, 6, 0.728);
+    border-radius: 5px;
+}
+
+.text{
+    color: white;
+    font-size: 15px;
+    margin-left: 0.7rem;
+}
+
+.btn:hover{
+    background-color: rgb(6, 146, 6);
+    cursor: pointer;
+}
